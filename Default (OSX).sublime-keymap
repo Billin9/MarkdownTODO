@@ -1,0 +1,3 @@
+[
+    { "keys": ["alt+t"], "command": "markdown_todo" }
+]
