@@ -1,3 +1,4 @@
 [
-    { "keys": ["alt+t"], "command": "markdown_todo" }
+    { "keys": ["alt+t"], "command": "markdown_todo_switch" },
+    { "keys": ["alt+n"], "command": "markdown_todo_add_or_delete" }
 ]
