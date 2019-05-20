@@ -12,3 +12,6 @@ class MarkdownTodoCommand(sublime_plugin.TextCommand):
         elif "- [x]" in text:
             new_text = text.replace("- [x]", "- [ ]")
             self.view.replace(edit, region, new_text)
+        else:
+            new_text = "- [ ] " + text
+            self.view.replace(edit, region, new_text)
